@@ -1,0 +1,60 @@
+ERROR - 2023-03-18 02:28:36 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: FATAL:  password authentication failed for user "postgres" in C:\xampp\htdocs\petalokasiobjek2\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\petalokasiobjek2\system\Database\Postgre\Connection.php(75): pg_connect('host=localhost ...')
+#2 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SELECT "table_n...')
+#5 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\xampp\htdocs\petalokasiobjek2\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\xampp\htdocs\petalokasiobjek2\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\xampp\htdocs\petalokasiobjek2\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\xampp\htdocs\petalokasiobjek2\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\petalokasiobjek2\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\petalokasiobjek2\spark(97): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-03-18 02:29:27 --> ErrorException: pg_query(): Query failed: ERROR:  relation "datalokasiobjek" already exists in C:\xampp\htdocs\petalokasiobjek2\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek2\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'CREATE TABLE "d...')
+#2 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('CREATE TABLE "d...')
+#3 C:\xampp\htdocs\petalokasiobjek2\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE "d...')
+#4 C:\xampp\htdocs\petalokasiobjek2\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE "d...')
+#5 C:\xampp\htdocs\petalokasiobjek2\app\Database\Migrations\2023-03-06-070804_CreateTableDataLokasiObjek.php(55): CodeIgniter\Database\Forge->createTable('datalokasiobjek')
+#6 C:\xampp\htdocs\petalokasiobjek2\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableDataLokasiObjek->up()
+#7 C:\xampp\htdocs\petalokasiobjek2\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#8 C:\xampp\htdocs\petalokasiobjek2\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\xampp\htdocs\petalokasiobjek2\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\xampp\htdocs\petalokasiobjek2\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\xampp\htdocs\petalokasiobjek2\spark(97): CodeIgniter\CLI\Console->run()
+#12 {main}
+INFO - 2023-03-18 02:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 02:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 02:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 02:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 02:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 03:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 04:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 07:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-18 07:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

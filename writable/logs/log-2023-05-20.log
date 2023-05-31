@@ -1,0 +1,298 @@
+INFO - 2023-05-20 00:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:28:29 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 01020000000700000038D906EE40E15A40B03BDD79E2791BC0E1D1C6116BE25A..., null, null, null, null, 2023-05-20 00:28:29, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(1, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:28:29 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 01020000000700000038D906EE40E15A40B03BDD79E2791BC0E1D1C6116BE25A..., null, null, null, null, 2023-05-20 00:28:29, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_polyline2" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_polyline2"."id" IN :tbl_data_polyline2.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(1, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 00:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:30:04 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 01020000000700000038D906EE40E15A40B03BDD79E2791BC0E1D1C6116BE25A..., null, null, null, null, 2023-05-20 00:30:04, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(1, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:30:04 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 01020000000700000038D906EE40E15A40B03BDD79E2791BC0E1D1C6116BE25A..., null, null, null, null, 2023-05-20 00:30:04, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_polyline2" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_polyline2"."id" IN :tbl_data_polyline2.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(1, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 00:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:30:15 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 010200000004000000E200FA7DFFBF5A40A054FB743C561AC0E560360186C85A..., null, null, null, 2023-05-20 00:24:30, 2023-05-20 00:30:15, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(5, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:30:15 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 010200000004000000E200FA7DFFBF5A40A054FB743C561AC0E560360186C85A..., null, null, null, 2023-05-20 00:24:30, 2023-05-20 00:30:15, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_polyline2" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_polyline2"."id" IN :tbl_data_polyline2.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(89): CodeIgniter\Model->update(5, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_polyline()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 00:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 00:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:30:33 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:30:33, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:30:33 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:30:33, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_point" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_point"."id" IN :tbl_data_point.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 00:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:32:25 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:32:25, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:32:25 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:32:25, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_point" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_point"."id" IN :tbl_data_point.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 00:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-20 00:33:32 --> ErrorException: pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:33:32, null). in C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php:147
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 147)
+#1 C:\xampp\htdocs\petalokasiobjek\system\Database\Postgre\Connection.php(147): pg_query(Object(PgSql\Connection), 'UPDATE "tbl_dat...')
+#2 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(691): CodeIgniter\Database\Postgre\Connection->execute('UPDATE "tbl_dat...')
+#3 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE "tbl_dat...')
+#4 C:\xampp\htdocs\petalokasiobjek\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_dat...', Array, false)
+#5 C:\xampp\htdocs\petalokasiobjek\system\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\petalokasiobjek\system\BaseModel.php(943): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\petalokasiobjek\system\Model.php(756): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\petalokasiobjek\app\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, Array)
+#9 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+#10 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+#11 C:\xampp\htdocs\petalokasiobjek\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\petalokasiobjek\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-20 00:33:32 --> pg_query(): Query failed: ERROR:  null value in column &quot;nama&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 01010000003D80457EFDB25A40F2B22616F86A1AC0, null, null, null, 2023-05-08 06:40:56, 2023-05-20 00:33:32, null).
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE "tbl_data_point" SET "nama" = :nama:, "geom" = :geom:, "updated_at" = :updated_at:
+WHERE "tbl_data_point"."id" IN :tbl_data_point.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(396): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(943): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Leafletdraw.php(71): CodeIgniter\Model->update(5, [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Leafletdraw->simpan_edit_point()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Leafletdraw))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-20 01:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 01:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 05:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
