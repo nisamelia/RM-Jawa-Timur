@@ -44,7 +44,7 @@ $routes->get('/editpolygon', 'Leafletdraw::edit_polygon');
 $routes->post('leafletdraw/simpan_edit_polygon', 'Leafletdraw::simpan_edit_polygon');
 
 $routes->get('api/point', 'Api::point');
-$routes->get('api/polyline', 'Api::polyline');
+
 $routes->get('api/polygon', 'Api::polygon');
 
 $routes->get('/deletepoint/(:any)', 'Leafletdraw::delete_point/$1');
@@ -54,7 +54,7 @@ $routes->get('/deletepolyline/(:any)', 'Leafletdraw::delete_polyline/$1');
 //id itu pasti number, kalo pake num bisa bener. any memberi kesempatan diisi yang lain
 $routes->get('/deletepolygon/(:any)', 'Leafletdraw::delete_polygon/$1');
 
-// service('auth')->routes($routes);
+service('auth')->routes($routes);
 
 /*
  * --------------------------------------------------------------------

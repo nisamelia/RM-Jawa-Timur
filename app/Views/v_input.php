@@ -138,8 +138,8 @@
     <script>
         /* Initial Map */
         let tooltip = 'Drag the marker or move the map<br>to change the coordinates<br>of the location';
-        let center = [-7.6967, 110.3786];
-        let map = L.map('map').setView(center, 15); //lat, long, zoom
+        let center = [-7.48775, 112.52128];
+        let map = L.map('map').setView(center, 5); //lat, long, zoom
         map.scrollWheelZoom.disable(); //disable zoom with scroll
 
         /* Tile Basemap */
